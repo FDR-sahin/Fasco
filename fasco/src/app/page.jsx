@@ -4,19 +4,30 @@ import hero1 from '../assets/hero-1.png'
 
  async function  Home() {
 
-// API theke data fetch kora hocche
-  const data = await fetch('https://dummyjson.com/products?limit=100&skip=0')
-    .then(res => res.json());
 
-  // Object theke asol array-ta alada kora holo
-  const allProducts = data.products || [];
 
 
   return (
     <div> 
       
       
-      <h1>sahim miah</h1>
+      
+    </div>
+  )
+}
+
+export default Home
+
+
+
+// // API theke data fetch kora hocche
+//   const data = await fetch('https://dummyjson.com/products?limit=100&skip=0')
+//     .then(res => res.json());
+
+//   // Object theke asol array-ta alada kora holo
+//   const allProducts = data.products || [];
+
+{/* <h1>sahim miah</h1>
       
       home page nagd udsydd
       
@@ -33,9 +44,4 @@ import hero1 from '../assets/hero-1.png'
               </div>
           ))
         }
-      </div>
-      </div>
-  )
-}
-
-export default Home
+      </div> */}
