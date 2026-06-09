@@ -1,18 +1,20 @@
 import React from 'react'
-import Image from 'next/image' 
-import hero1 from '../assets/hero-1.png'
-
- async function  Home() {
+import Banner from '@/app/components/Banner/Banner'
+import DealsMonth from './components/DealsMonth/DealsMonth'
 
 
 
+
+
+ function  Home() {
+ 
 
   return (
-    <div> 
-      
-      
-      
-    </div>
+    <>
+    <Banner/>
+    <DealsMonth/>
+
+    </>
   )
 }
 
