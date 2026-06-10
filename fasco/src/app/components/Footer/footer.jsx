@@ -1,14 +1,12 @@
-import { headers } from "next/headers";
-import Link from "next/link";
 import React from "react";
-import Button from "../Button/Button";
+import Link from "next/link";
 
-function Navber() {
+function footer() {
   return (
-    <header className="fixed left-0 right-0 top-0 z-20 bg-white">
+    <footer className=" bg-white">
       <nav className="max-w-7xl mx-auto px-12 flex items-center justify-between pt-10">
         <div>
-          <h1 className="text-[52px] text-[#484848]">FASCO</h1>
+          <h1 className="text-[32px] text-[#484848]">FASCO</h1>
         </div>
         <div>
           <ul className="flex items-center gap-x-10">
@@ -17,7 +15,7 @@ function Navber() {
                 className="text-[#484848] text-[16px] cursor-pointer hover:text-blue-600 font-semibold"
                 href="/"
               >
-                Home
+                Support Center
               </Link>
             </li>
             <li>
@@ -25,7 +23,7 @@ function Navber() {
                 className="text-[#484848] text-[16px] cursor-pointer hover:text-blue-600 font-semibold"
                 href="/"
               >
-                Deals
+                Invoicing
               </Link>
             </li>
             <li>
@@ -33,7 +31,7 @@ function Navber() {
                 className="text-[#484848] text-[16px] cursor-pointer hover:text-blue-600 font-semibold"
                 href="/"
               >
-                New Arrivals
+                Contract
               </Link>
             </li>
             <li>
@@ -41,7 +39,7 @@ function Navber() {
                 className="text-[#484848] text-[16px] cursor-pointer hover:text-blue-600 font-semibold"
                 href="/"
               >
-                Packages
+                Careers
               </Link>
             </li>
             <li>
@@ -49,7 +47,7 @@ function Navber() {
                 className="text-[#484848] text-[16px] cursor-pointer hover:text-blue-600 font-semibold"
                 href="/login"
               >
-                Sign in
+                Blog
               </Link>
             </li>
             <li>
@@ -57,14 +55,19 @@ function Navber() {
                 className="text-[#484848] text-[16px] cursor-pointer hover:text-blue-600 font-semibold"
                 href="/signup"
               >
-                <Button text1="Sign Up" />{" "}
+                FAQ,s
               </Link>
             </li>
           </ul>
         </div>
       </nav>
-    </header>
+      <div className="text-center pt-12 pb-6">
+        <p className="text-[#484848] text-[12px]">
+          Copyright © 2022 Xpro . All Rights Reseved.
+        </p>
+      </div>
+    </footer>
   );
 }
 
-export default Navber;
+export default footer;

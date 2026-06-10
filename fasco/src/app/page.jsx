@@ -1,10 +1,11 @@
 import React from 'react'
 import Banner from '@/app/components/Banner/Banner'
 import DealsMonth from './components/DealsMonth/DealsMonth'
-
-
-
-
+import NewArrivals from './components/NewArrivals/NewArrivals'
+import FollowInstragram from './components/FollowInstragram/FollowInstragram'
+import PeakyBlinders from './components/PeakyBlinders/PeakyBlinders'
+import Subscribe from './components/Subscribe/Subscribe'
+import CustomersSay from './components/CustomersSay/CustomersSay'
 
  function  Home() {
  
@@ -13,6 +14,13 @@ import DealsMonth from './components/DealsMonth/DealsMonth'
     <>
     <Banner/>
     <DealsMonth/>
+    <NewArrivals/>
+    <PeakyBlinders/>
+    <FollowInstragram/>
+    <CustomersSay/>
+    <Subscribe/>
+
+
 
     </>
   )

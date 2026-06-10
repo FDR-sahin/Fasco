@@ -15,7 +15,7 @@ import denim from '@/assets/denim.png'
 function Banner() {
   return (
        <section className='mt-35 '> 
-     <div className='max-w-6xl mx-auto px-12'>
+     <div className='max-w-7xl mx-auto px-12'>
        <div className=' flex items-center gap-8.75'>
         <div className='bg-[#E0E0E0] w-98 h-189 rounded-[10px]'>
            <Image className='w-full h-full object-contain' src={hero1} alt="Hero Image" priority />

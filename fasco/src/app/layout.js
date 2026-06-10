@@ -1,6 +1,7 @@
 import { Poppins, Volkhov } from "next/font/google";
 import "./globals.css";
 import Navber from "./components/Navber/Navber";
+import Footer from "./components/Footer/footer";
 
 const volkhov = Volkhov({
   variable: "--font-volkhov",
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
         <Navber/>
         {children}
+        <Footer/>
         </body>
     </html>
   );
