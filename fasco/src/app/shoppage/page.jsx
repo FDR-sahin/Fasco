@@ -9,6 +9,7 @@ import l2 from "@/assets/Layer2.png";
 import l3 from "@/assets/Layer3.png";
 import l4 from "@/assets/Layer4.png";
 import l5 from "@/assets/Layer5.png";
+import ShopCard from "../components/ShopCard/ShopCard";
 
 function ShopPage() {
   return (
@@ -271,6 +272,36 @@ function ShopPage() {
                 </button>
               </div>
             </div>
+
+          <div className="mt-7 grid md:grid-cols-3 grid-cols-1 gap-6">
+            {
+              ShopCard.map((card) => {
+                return(
+                  <div 
+                  key={card.id}
+                  className="w-71.5 h-122.75"
+                  >
+                    <div className="w-[250px] h-[350.61]">
+                       <Image
+                                   className="w-full h-full object-contain"
+                                   src={card.image}
+                                   alt="Hero Image"
+                                   priority
+                                 />
+                    </div>
+                    <div>
+                      <h3 className="py-5">{card.name}</h3>
+                      <p className="pb-5">${card.price.toFixed(2)}</p>
+                    </div>
+
+
+                  </div>
+                )
+              })
+
+            }
+          </div>
+
           </div>
         </div>
       </div>
