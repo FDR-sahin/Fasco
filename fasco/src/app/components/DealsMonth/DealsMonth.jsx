@@ -83,8 +83,8 @@ function DealsMonth() {
         </div>
 
         <div className="flex items-center  gap-x-4">
-          <RiArrowDropLeftLine className="cursor-pointer hover:bg-gray-100 w-12 h-12 bg-white rounded-full shadow-2xl shadow-[#B6B6B6] text-[#B6B6B6] mt-135" />
-          <RiArrowDropRightLine className="cursor-pointer hover:bg-gray-100 w-12 h-12 bg-white rounded-full shadow-2xl shadow-[#B6B6B6] text-[#B6B6B6] mt-135" />
+          <RiArrowDropLeftLine className="cursor-pointer  hover:text-black w-12 h-12 bg-white rounded-full shadow-2xl shadow-[#B6B6B6] text-[#B6B6B6] mt-135" />
+          <RiArrowDropRightLine className="cursor-pointer  hover:text-black w-12 h-12 bg-white rounded-full shadow-2xl shadow-[#B6B6B6] text-[#B6B6B6] mt-135" />
         </div>
 
         <div className="flex-1 flex gap-4 relative">

@@ -4,6 +4,8 @@ import Image from "next/image";
 import c1 from "@/assets/c1.png";
 import c2 from "@/assets/c2.png";
 import { FaStar } from "react-icons/fa";
+import { RiArrowDropRightLine } from "react-icons/ri";
+import { RiArrowDropLeftLine } from "react-icons/ri";
 
 function CustomersSay() {
   return (
@@ -52,6 +54,10 @@ function CustomersSay() {
           </div>
         </div>
       </div>
+      <div className="flex items-center justify-center   gap-x-4">
+                <RiArrowDropLeftLine className="cursor-pointer  hover:text-black w-12 h-12 bg-white rounded-full shadow-2xl shadow-[#B6B6B6] text-[#B6B6B6]" />
+                <RiArrowDropRightLine className="cursor-pointer  hover:text-black w-12 h-12 bg-white rounded-full shadow-2xl shadow-[#B6B6B6] text-[#B6B6B6]" />
+              </div>
     </section>
   );
 }

@@ -11,6 +11,7 @@ import louis from '@/assets/louis.png'
 import prada from '@/assets/prada.png'
 import calvin from '@/assets/calvin.png'
 import denim from '@/assets/denim.png'
+import Link from 'next/link'
 
 function Banner() {
   return (
@@ -30,7 +31,12 @@ function Banner() {
            <Image className='w-full h-full object-cover' src={sale} alt="Hero Image" priority />
            <p className='text-[20px] text-[#484848]'>NEW COLLECTION</p>
           <div className='w-fit mx-auto'>
-             <Button text1="SHOP NOW"/>
+             <Link
+                className="text-[#484848] text-[16px] cursor-pointer hover:text-blue-600 font-semibold"
+                href="/shoppage"
+              >
+               <Button text1="Shop Now"/>
+              </Link>
           </div>
           </div>
           <div>
