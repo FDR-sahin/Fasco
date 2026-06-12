@@ -29,9 +29,9 @@ function ShopPage() {
             </span>
             <Link
               className="text-[#000000] text-[15px] cursor-pointer hover:text-blue-600 font-semibold"
-              href="/fashion"
+              href="/products"
             >
-              Fashion
+              Products
             </Link>
           </div>
         </div>
